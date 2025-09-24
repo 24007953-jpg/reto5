@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Lista de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Mi Lista de Tareas</h1>
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Escribe una nueva tarea...">
+            <button id="addBtn">Agregar</button>
+        </div>
+        <ul id="taskList">
+            <li>Aprender Git básico</li>
+            <li>Practicar comandos de Git</li>
+        </ul>
+        <div class="stats">
+            <p>Tareas totales: <span id="totalTasks">2</span></p>
+        </div>
+        <div class="actions">
+            <button id="clearBtn" class="clear-all-btn">Limpiar Todo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
